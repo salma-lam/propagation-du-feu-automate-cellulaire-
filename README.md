@@ -2,13 +2,25 @@
 
 ## Description
 
-Ce projet simule la propagation du feu sur une grille en utilisant des automates cellulaires. Le modèle implémente une simulation simple où le feu se propage d'une cellule à une autre en fonction des cellules voisines en feu. La simulation est parallélisée à l'aide d'OpenMP pour améliorer les performances.
+La propagation des feux est un phénomène complexe qui peut être modélisé à l'aide d’automate cellulaire, une technique permettant de simuler des systèmes dynamiques discrets. Dans le contexte de la simulation de propagation des feux, les cellules d'une grille se transforment selon des règles spécifiques qui imitent la manière dont un feu se propage dans un environnement donné. Cette simulation peut être visualisée de différentes manières, et ce rapport présente trois implémentations distinctes pour modéliser et afficher ce phénomène.
 
 ## Contenu
 
-- **`incendie.c`** :  Ce code simule la propagation du feu sur une grille carrée en parallélisant les mises à jour avec OpenMP pour améliorer la performance.
-- **`incendie2.c`** : Ce code simule la propagation du feu sur une grille carrée et utilise des couleurs dans la console Windows pour visualiser l'état des cellules à chaque étape.
-- **`fire_simulation.c`** : Ce code utilise OpenMP pour simuler la propagation du feu sur une grille, affiche les états des cellules en utilisant des couleurs ANSI dans la console Windows, et actualise l'affichage à chaque étape avec un délai pour l'animation.
+- **`incendie.c`** :  Ce code utilise une grille simple pour afficher les états des cellules à l'aide de caractères ASCII :
+                    •	**`.`** : pour les cellules intactes
+                    •	**`F`** : pour les cellules en feu
+                    •	**`B`** : pour les cellules brûlées
+
+- **`incendie2.c`** : Ce code utilise les fonctionnalités de la console Windows pour afficher les cellules avec différentes couleurs :
+                    •	**`Rouge`** pour les cellules en feu
+                    •	**`Bleu`** clair pour les cellules brûlées
+                    •	**`Vert`** pour les cellules intactes
+
+- **`fire_simulation.c`** : Ce code combine l'affichage de couleurs ANSI pour les cellules avec la parallélisation OpenMP pour la mise à jour de la grille. Les couleurs utilisées sont :
+                    •	**`Vert`** pour les cellules intactes
+                    •	**`Rouge`** pour les cellules en feu
+                    •	**`Jaune`** pour les cellules brûlées
+
 
 ## Fonctionnalités
 
