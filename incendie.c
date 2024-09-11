@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <omp.h>
 
-#define N 20        // Taille de la grille (N x N)
-#define STEPS 20    // Nombre d'étapes de simulation réduit à 20
+#define N 10        // Taille de la grille (N x N)
+#define STEPS 10    // Nombre d'étapes de simulation réduit à 20
 
 // États possibles des cellules
 #define INTACT 0
@@ -87,3 +87,4 @@ int main() {
 
     return 0;
 }
+
