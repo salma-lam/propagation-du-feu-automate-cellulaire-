@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <windows.h>
 
-#define N 20        // Taille de la grille (N x N)
-#define STEPS 20    // Nombre d'étapes de simulation
+#define N 10        // Taille de la grille (N x N)
+#define STEPS 10    // Nombre d'étapes de simulation
 #define DELAY 100000 // Délai entre les étapes (en microsecondes)
 
 // États possibles des cellules
