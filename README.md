@@ -42,4 +42,7 @@ La propagation des feux est un phénomène complexe qui peut être modélisé à
 1. **Compilation** :
 
    ```sh
-   gcc -o simulation main.c -fopenmp
+    gcc -fopenmp -o fire_simulation fire_simulation.c
+   ./fire_simulation
+
+
