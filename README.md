@@ -40,7 +40,7 @@ La propagation des feux est un phénomène complexe qui peut être modélisé à
 ## Compilation et Exécution
 
 - **Ouvrez le terminal MSYS2 MINGW64.**
-- **Naviguez jusqu'au répertoire contenant votre fichier source.`fire_simulation.c`**
+- **Naviguez jusqu'au répertoire contenant votre fichier source`fire_simulation.c`.**
 - **Compilez le code avec les commandes suivantes :**
    ```sh
     gcc -fopenmp -o fire_simulation fire_simulation.c
