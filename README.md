@@ -6,17 +6,17 @@ La propagation des feux est un phénomène complexe qui peut être modélisé à
 
 ## Contenu
 
-- **`incendie.c`** :  Ce code utilise une grille simple pour afficher les états des cellules à l'aide de caractères ASCII :
+- **`fire_simulation.c`** :  Ce code utilise une grille simple pour afficher les états des cellules à l'aide de caractères ASCII :
                     •	**`.`** : pour les cellules intactes
                     •	**`F`** : pour les cellules en feu
                     •	**`B`** : pour les cellules brûlées
 
-- **`incendie2.c`** : Ce code utilise les fonctionnalités de la console Windows pour afficher les cellules avec différentes couleurs :
+- **`fire_simulation2.c`** : Ce code utilise les fonctionnalités de la console Windows pour afficher les cellules avec différentes couleurs :
                     •	**`Rouge`** pour les cellules en feu
                     •	**`Bleu`** clair pour les cellules brûlées
                     •	**`Vert`** pour les cellules intactes
 
-- **`fire_simulation.c`** : Ce code combine l'affichage de couleurs ANSI pour les cellules avec la parallélisation OpenMP pour la mise à jour de la grille. Les couleurs utilisées sont :
+- **`fire_simulation3.c`** : Ce code combine l'affichage de couleurs ANSI pour les cellules avec la parallélisation OpenMP pour la mise à jour de la grille. Les couleurs utilisées sont :
                     •	**`Vert`** pour les cellules intactes
                     •	**`Rouge`** pour les cellules en feu
                     •	**`Jaune`** pour les cellules brûlées
