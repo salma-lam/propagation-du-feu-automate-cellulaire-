@@ -20,6 +20,7 @@ La propagation des feux est un phénomène complexe qui peut être modélisé à
                     •	**`Vert`** pour les cellules intactes
                     •	**`Rouge`** pour les cellules en feu
                     •	**`Jaune`** pour les cellules brûlées
+  _ **`Amelioration_fire.c`** : Ce code est une version ameliorée du code **`fire_simulation3.c`**.
 
 
 ## Fonctionnalités
