@@ -3,8 +3,8 @@
 #include <windows.h>
 
 #define N 10        // Taille de la grille (N x N)
-#define STEPS 10    // Nombre d'étapes de simulation
-#define DELAY 100000 // Délai entre les étapes (en microsecondes)
+#define STEPS 6    // Nombre d'étapes de simulation
+#define DELAY 100000 // Délai entre les étapes (en microsecondes)  0.1 secondes
 
 // États possibles des cellules
 #define INTACT 0
@@ -80,7 +80,7 @@ int main() {
         draw_grid(next_grid);
 
         // Attendre quelques millisecondes pour observer l'animation
-        Sleep(DELAY / 1000); // Délai entre les étapes (en millisecondes)
+        Sleep(DELAY / 1000); // Délai entre les étapes (en millisecondes)  100 millisecondes => 0.1 seconde
 
         // Copier la nouvelle grille dans l'ancienne
         for (int i = 0; i < N; i++) {
